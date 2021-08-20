@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'STIX Two Text', serif;
+}
+
+
+/* Header Section */
+
+.header {
+    background: #2e219a;
+}
+
+.header img {
+    margin: auto;
+    width: 110px;
+    padding: 15px;
+}
+
+
+/* Menu Bar */
+
+.menu {
+    background: #ff0000;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 15px;
+    margin-left: -30px;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+    margin-right: 4px;
+    text-align: left;
+}
+
+.menu ul li:last-child a {
+    border-right: none;
+}
+
+
+/* Banner Section */
+
+.banner-section {
+    background-image: url(./images/background-1.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.banner-section h1 {
+    color: #fff;
+}
+
+.banner-section p {
+    color: #fff;
+    padding: 30px 350px;
+}
+
+.banner-section a {
+    text-decoration: none;
+    background: #008000;
+    color: #ddd;
+    padding: 10px 35px;
+}
+
+
+/* Theme Section */
+
+.theme-section {
+    background-image: url(./images/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.theme-section h2 {
+    background: #008000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.theme-section p {
+    background: #ffff00;
+    width: 1160px;
+    margin: 30px auto 45px;
+    padding: 5px 0;
+    line-height: 2em;
+    font-weight: 600;
+}
+
+.theme-section a {
+    text-decoration: none;
+    background: #000000;
+    color: #ddd;
+    padding: 12px 40px;
+}
+
+
+/* Teem Section */
+
+.teem-section {
+    background: #4ab75c;
+    padding: 80px 0 40px 0;
+    text-align: center;
+}
+
+.title {
+    margin: 0 0 90px 0;
+}
+
+.about {
+    margin-bottom: 0;
+}
+
+.image {
+    display: inline-block;
+    width: 13%;
+}
+
+img {
+    width: 100px;
+    display: block;
+}
+
+.text {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+.text h6 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: .6em;
+}
+
+.text p {
+    width: 575px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 0;
+}
+
+.about-1 {
+    margin-top: 145px;
+}
+
+.image-1 {
+    width: 13%;
+}
+
+.text-1 {
+    width: 31%;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background: #2c1a8e;
+
+}
+
+.social-link {
+    text-align: center;
+
+}
+
+.social-link ul {
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.social-link ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-link ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
